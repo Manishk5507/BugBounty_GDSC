@@ -137,6 +137,11 @@ p {
   left: 20px;
   transition: background 750ms ease-in-out;
   user-select: none;
+  cursor: pointer;
+}
+
+#menu-button:hover{
+  cursor: pointer;
 }
 
 .menu-open #menu-button {
@@ -208,7 +213,7 @@ nav {
   width: 260px;
   bottom: 0;
   z-index: -1;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .menu-open nav {
@@ -240,7 +245,7 @@ nav ul {
   position: absolute;
   top: 90px;
   left: 20px;
-  pointer-events: all;
+  /* pointer-events: all; */
 }
 
 nav li {
